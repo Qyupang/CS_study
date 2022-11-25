@@ -14,4 +14,8 @@
 
 라이브러리와 프레임워크의 공통점은 다른 개발자가 작성한 코드를 프로젝트로 가져와 사용할 수 있다는 점이다. 하지만 누가 누구를 컨트롤 하느냐에 대해 차이를 보인다. 라이브러리는 코드를 컨트롤 할 수 있는 반면 프레임워크는 누군가의 규칙에 따라 코딩해야 한다는 점에서 차이가 있다. 즉, 라이브러리는 코딩하다 필요할 경우 호출하여 사용할 수 있고, 쉽게 대체가 가능하다는 특징을 가지고 있다. 반면 프레임워크는 프레임워크만의 규칙을 지켜가며 코딩을 해야한다.
 
-[참고한 영상](https://www.youtube.com/watch?v=t9ccIykXTCM)
+### 참고
+
+- https://github.com/gyoogle/tech-interview-for-developer
+
+- https://www.youtube.com/watch?v=t9ccIykXTCM
