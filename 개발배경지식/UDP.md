@@ -48,6 +48,18 @@
 - DNS: UDP를 port 53번에서 사용한다.
   하지만 크기가 512가 넘을 경우 UDP의 제한을 넘기기 때문에 TCP를 사용해야 한다.
 
+## UDP Header
+
+---
+
+![UDP Header](./img/UDP_Header.png)
+
+- Source port: 시작 포트
+- Destination port: 도착지 포트
+- Length: 길이
+- Checksum: 오류 검출
+  -> 중복 검사의 한 형태로, 오류 정정을 통해 공간이나 시간 속에서 송신된 자료의 무결성을 보호하는 방법이다.
+
 ### 참고한 자료
 
 ---
