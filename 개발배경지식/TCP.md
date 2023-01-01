@@ -1,6 +1,30 @@
 # TCP
 
+> TCP는 연속성보다 신뢰성있는 전송이 중요할 때 사용하는 프로토콜이다.
+
+## TCP 특징
+
+---
+
+- 연결 지향 방식이다.
+- 3-way handshaking 과정을 통해 연결을 설정하고 4-way handshaking을 통해 해제한다.
+- 흐름 제어 및 혼잡 제어
+- 높은 신뢰성 보장
+- UDP보다 느린 속도
+- 전이중(Full-Duplex), 점대점(Point to Point) 방식
+
+## TCP 서버의 특징
+
+- 서버소켓은 연결만을 담당한다.
+- 연결과정에서 반환된 클라이언트 소켓은 데이터의 송수신에 사용된다.
+- 서버와 클라이언트는 1대1로 연결된다.
+- 스트림 전송으로 전송 데이터의 크기가 무제한이다.
+- 패킷에 대한 응답을 해야하기에 성능이 낮다.
+- Streaming 서비스에 불리하다.(손실된 경우 재전송 요청을 하기에)
+
 ## 3 way handshake & 4 way handshake
+
+---
 
 > 연결과 해제 과정을 말한다.
 
@@ -38,3 +62,4 @@
 ### 참고한 자료
 
 - https://gyoogle.dev/blog/computer-science/network/TCP%203%20way%20handshake%20&%204%20way%20handshake.html
+- https://mangkyu.tistory.com/15
